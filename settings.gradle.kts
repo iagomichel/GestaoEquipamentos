@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "GestaoEquipamentos"
 include(":app")
 include(":common")
+include(":inventory")
