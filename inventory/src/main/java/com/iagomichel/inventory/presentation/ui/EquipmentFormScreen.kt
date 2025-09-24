@@ -132,6 +132,11 @@ fun EquipmentFormScreen(
                             photoUri = photoUri.orEmpty()
                         )
                         loading = false
+                        Toast.makeText(
+                            context,
+                            "Gravado com sucesso!",
+                            Toast.LENGTH_LONG
+                        ).show()
                     },
                     modifier = Modifier.fillMaxWidth()
                 ) {
